@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+}
+.logo {
+  margin: 20px;
+}
+.navigation ul li {
+  display: inline-flex;
+  position: relative;
+  top: -6px;
+  left: 130px;
+  font-size: 1em;
+}
+.navigation nav {
+  position: relative;
+  top: -60px;
+}
+
+
+.navigation ul li a {
+  font-family: "Kanit", sans-serif;
+  color: white;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 1.3em;
+  cursor: pointer;
+  
+}
+.right-nav {
+  position: relative;
+  top: -97px;
+  right: 90px;
+  margin-right: -56px;
+  margin-left: 1229px;
+}
+.right-nav img {
+  width: 30px;
+  height: 22px;
+  background: transparent;
+  color: white;
+  position: relative;
+  bottom: -5px;
+}
+.right-nav input[type="text"] {
+  width: 170px;
+  height: 25px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  border-radius: transparent;
+
+}
+.right-nav  {
+  text-align: center;
+}
+.container1 {
+  margin: 20px;
+  width: 100%;
+  height: 202px;
+  position: relative;
+  top: -20px;
+}
+.container1 h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  top: -19px;
+}
+.container1 .images {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+.container2 {
+  margin: 20px;
+  width: 100%;
+  height: 202px;
+  position: relative;
+  top: -20px;
+}
+.container2 h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  top: -1px;
+}
+.container2 .images {
+  display: flex;
+  overflow:-x scroll;
+  align-items: center;
+}
+.container3 {
+  margin: 20px;
+  width: 100%;
+  height: 202px;
+  position: relative;
+  top: -20px;
+}
+.container3 h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  top: -1px;
+}
+.container3 .images {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+.container4 {
+  margin: 20px;
+  width: 100%;
+  height: 202px;
+  position: relative;
+  top: -20px;
+}
+.container4 h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  top: -1px;
+}
+.container4 .images {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+.container5 {
+  margin: 20px;
+  width: 100%;
+  height: 202px;
+  position: relative;
+  top: -20px;
+}
+.container5 h2 {
+  color: white;
+  font-family: "Kanit", sans-serif;
+  position: relative;
+  top: -1px;
+}
+.container5 .images {
+  display: flex;
+  overflow-x: scroll;
+  align-items: center;
+}
+.images img {
+  padding-left: 20px;
+}
+.images img:hover{
+  cursor: pointer;
+  transition: 600ms;
+  transform: scale(1.2);
+}
+footer p{
+  color: #fff;
+  text-align: center;
+  font-size: 1.2em;
+}
